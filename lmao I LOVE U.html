@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>I Love You</title>
+    <style>
+      body {
+  background-color: #f5e5e5;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 48px;
+  text-align: center;
+  color: #e31b6d;
+  margin-bottom: 30px;
+}
+
+.poem {
+  font-size: 24px;
+  text-align: center;
+  color: #444;
+  margin-bottom: 50px;
+}
+
+.forever-btn {
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #e31b6d;
+  border: none;
+  border-radius: 10px;
+  padding: 20px 30px;
+  cursor: pointer;
+}
+
+.forever-btn:hover {
+  background-color: #f7a8c2;
+}
+
+.heart {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url('https://www.pngfind.com/pngs/m/61-611161_cute-heart-png-whatsapp-sticker-love-transparent-png.png');
+  background-size: contain;
+  animation: heart 2s infinite ease-in-out;
+}
+
+.heart:nth-child(1) {
+  top: 10%;
+  left: 15%;
+  animation-delay: -0.5s;
+}
+
+.heart:nth-child(2) {
+  top: 20%;
+  left: 70%;
+  animation-delay: -1s;
+}
+
+.heart:nth-child(3) {
+  top: 50%;
+  left: 10%;
+  animation-delay: -1.5s;
+}
+
+.heart:nth-child(4) {
+  top: 70%;
+  left: 80%;
+  animation-delay: -2s;
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(45deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+  <h1 class="title">I love you</h1>
+  <p class="poem">Roses are red, violets are blue<br>
+  You make my heart skip, I'm in love with you</p>
+  <button class="forever-btn" onclick="window.location.href='https://drive.google.com/file/d/1EyAPOiXPsgnPa-LzTRlaiSJG3FgbJFlk/view?usp=sharing'">Forever and always</button>
+</div>
+
+	</body>
+</html>
